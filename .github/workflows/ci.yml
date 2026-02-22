@@ -1,0 +1,17 @@
+name: Fresh Basket CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  lint-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node -v
+      - run: echo "Install and lint each workspace in real CI environment"

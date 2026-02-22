@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#1B5E20"/>
+  <path d="M120 290C120 215 180 155 255 155C330 155 392 215 392 290V345H120V290Z" fill="#A5D6A7"/>
+  <circle cx="256" cy="250" r="52" fill="#43A047"/>
+  <path d="M256 187C280 160 322 154 350 170C326 198 288 208 256 187Z" fill="#C8E6C9"/>
+  <text x="256" y="410" font-family="Arial" font-size="44" font-weight="700" text-anchor="middle" fill="white">Fresh Basket</text>
+</svg>
