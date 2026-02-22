@@ -1,0 +1,15 @@
+{
+  "name": "fresh-basket",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace backend run dev",
+    "dev:admin": "npm --workspace @fresh-basket/admin run dev",
+    "lint": "echo \"Run lint per workspace\""
+  }
+}
